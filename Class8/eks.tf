@@ -21,6 +21,7 @@ module "my-cluster" {
   cluster_version = var.cluster_version
   subnets         = var.subnets
   vpc_id          = var.vpc_id
+  tags = var.tags
 
   worker_groups = [
     {

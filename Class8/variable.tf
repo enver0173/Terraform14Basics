@@ -13,5 +13,5 @@ variable "instance_type" {}
 variable "asg_max_size" {}
 variable "asg_min_size" {}
 variable "tags" {
-  
+  type = map(any)
 }
